@@ -18,7 +18,7 @@ import "./FreldoCrowdsaleInfo.sol";
 
 contract BonusRefundableCrowdsale is CappedCrowdsale, 
                 TimedCrowdsale, RefundableCrowdsale,
-                MintedCrowdsale, ZetCrowsaleInfo {
+                MintedCrowdsale, FreldoCrowsaleInfo {
 
 
         address public reservedFundsWallet ;
