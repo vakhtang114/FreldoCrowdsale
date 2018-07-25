@@ -21,8 +21,8 @@ contract FreldoCrowsaleInfo
     uint256 constant TOKEN_RATE = 5000;
 
     // HARD CAP -  maximum amount of WEI accepted in the crowdsale. 
-    // 80'000 ETH in WEI
-    uint256 constant WEI_HARD_CAP = 80000000000000000000000;
+    // 20'000 ETH in WEI
+    uint256 constant WEI_HARD_CAP = 20000000000000000000000;
 
     // SOFT CAP -  minimum amount of wei accepted in the crowdsale. 
     // 4'000 ETH in WEI
