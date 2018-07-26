@@ -33,8 +33,8 @@ contract FreldoCrowsaleInfo
     uint256 constant WEI_PURCHASE_MIN = 20000000000000000;
     
     // TOKEN_BONUS_FINALIZE - ammount allocated to team in token
-    // 200'000'000 FRECN in WEI 
-    uint256 constant TOKEN_BONUS_FINALIZE = 200000000000000000000000000;
+    // 50'000'000 FRECN in WEI 
+    uint256 constant TOKEN_BONUS_FINALIZE = 50000000000000000000000000;
     
     /*    maximum amount of wei accepted in the pre-sale. */    
     // 2'000 ETH in WEI
