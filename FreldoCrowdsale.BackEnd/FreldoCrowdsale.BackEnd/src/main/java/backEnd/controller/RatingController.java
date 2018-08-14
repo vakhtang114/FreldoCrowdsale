@@ -55,5 +55,17 @@ public class RatingController {
     public RatingResponse getCryptoprofyRating() throws IOException {
         return ratingService.getCryptoprofyRating();
     }
+
+    @RequestMapping(value = "/cryptonext", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
+    @ApiMethod(description = "Method user to get Freldo ICO rating from https://cryptonext.com/ico/freldo")
+    public RatingResponse getCryptonextRating() throws IOException, InterruptedException {
+        return ratingService.getCryptonextRating();
+    }
+
+    @RequestMapping(value = "/betaico", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
+    @ApiMethod(description = "Method user to get Freldo ICO rating from http://betaico.com/freldo#tab-analysis")
+    public RatingResponse getBetaicoRating() throws IOException {
+        return ratingService.getBetaicoRating();
+    }
 }
 

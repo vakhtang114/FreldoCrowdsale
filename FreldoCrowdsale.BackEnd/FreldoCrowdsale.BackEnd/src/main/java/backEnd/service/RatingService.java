@@ -2,6 +2,8 @@ package backEnd.service;
 
 import backEnd.response.RatingResponse;
 
+import java.io.IOException;
+
 public interface RatingService {
 
     RatingResponse getIcobenchRating();
@@ -15,4 +17,8 @@ public interface RatingService {
     RatingResponse getAirdropsRating();
 
     RatingResponse getCryptoprofyRating();
+
+    RatingResponse getCryptonextRating() throws IOException, InterruptedException;
+
+    RatingResponse getBetaicoRating();
 }
